@@ -60,12 +60,6 @@ This project implements a dynamic Doctor Listing Page, enabling users to efficie
     * Share specific filtered views via URL.
     * Retain their applied filters when navigating back and forward through the browser history.
 
-## Highlights
-
-* **Dynamic Specialties:** The list of available specialties in the filter panel is automatically generated based on the unique specialties present in the fetched doctor data.
-* **Comprehensive Test Automation Support:** All specified `data-testid` attributes have been implemented to facilitate robust end-to-end testing.
-* **Robust Error Handling:** The application gracefully handles potential API errors, ensuring a stable and functional user experience.
-
 ## How to Run
 
 1.  **Install Dependencies:**
