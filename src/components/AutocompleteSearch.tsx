@@ -27,7 +27,7 @@ const AutocompleteSearch: React.FC<AutocompleteSearchProps> = ({
     const lowerSearchTerm = searchTerm.toLowerCase();
     const filteredDoctors = doctors
       .filter(doctor => doctor.name.toLowerCase().includes(lowerSearchTerm))
-      .slice(0, 5);
+      .slice(0, 3);
     
     setSuggestions(filteredDoctors);
   }, [searchTerm, doctors]);
